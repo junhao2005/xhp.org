@@ -1,0 +1,251 @@
+.mukta-medium {
+    font-family: "Mukta", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+
+
+  
+.color-nav{
+    background-color: rgb(48, 187, 252);
+    color: black;
+}
+
+.img-logo{
+    width: 5%;
+    height: auto;
+}
+
+.img-principal{
+    width: 500%;
+    height: 650%;
+}
+
+.img-volum{
+    width: 100%;
+    height: 100%;
+}
+
+
+.brillos{
+    opacity: 85%;
+    background-color: black;
+}
+
+.color-titu{
+    color: black;
+    background-color: rgba(0, 255, 136, 0.795); /* Color de fondo para resaltar */
+    margin: 4%;
+}
+.titu{
+    color: black;
+    background-color: rgba(0, 255, 136, 0.795); /* Color de fondo para resaltar */
+    margin: 1%;
+}
+
+.espacio{
+    margin-top: 3%;
+}
+
+.somos{
+    display: flex;
+    justify-content: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: center;
+
+}
+
+.img{
+    margin-left: 40%;
+    width: 50%;
+    height: auto;
+}
+
+.img-trabajo{
+    margin-left: 29%;
+    width: 80%;
+    height: auto;
+    margin-bottom: 2%;
+}
+
+
+.color-fondo{
+    background-color:rgba(0, 255, 136, 0.795);
+}
+
+
+.img-peligro{
+    width: 70%;
+    height: 40%;
+}
+
+.center-boton{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+
+.rowflex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3%;
+}
+
+.rowflex-pie {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0%;
+}
+
+.rowflex-peligro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1%;
+}
+
+
+.col2 {
+    width: 50%;
+    text-align: center;
+    
+}
+
+
+
+.colorpie {
+    background-color: black;                    /* Color de fondo y texto blanco y texto centrado */
+    color: white;
+    text-align: center;
+}
+
+.sinlinea {
+    text-decoration: none;
+}
+
+.centrar-boton{
+    margin-left: 29%;
+
+}
+
+.titu-center {
+    text-align: center;
+    margin-top: 2%;
+    color: black;
+    background-color: rgba(0, 255, 136, 0.795); /* Color de fondo para resaltar */
+}
+
+
+.hola {
+    display: table;             /*hace que un elemento HTML actúe como una tabla*/
+    clear: both;                     /* para que no se mueva */
+}
+
+.holaa {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.texto-estrecho {
+    font-size: 90%;
+    margin-left: 7%;
+    
+}
+
+.texto-ri {
+    font-size: 90%;
+    margin-left: -13%;
+    text-align: justify;
+}
+
+
+.col-left {
+    width: 50%;
+    float: left;             /* para que se ponga a izquierda */
+}
+
+.col-right {
+    width: 50%;
+    float: right;            /* para que se ponga a derecha */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 700px){
+
+    .img-logo{
+        width: 10%;
+        height: auto;
+    }
+
+    .img{
+        margin-left: 11%;
+        width: 10%;
+        height: auto;
+    }
+
+    .img-trabajo{
+        margin-left: 0%;
+        width: 5%;
+        height: 5%;
+    }
+
+    .peque{
+        width: 2000%;
+        height: 1000%;
+
+    }
+
+    .somos{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .texto-estrecho {
+        font-size: 80%;
+        margin-left: 0%;
+        text-align: justify;
+    }
+    
+    .texto-ri {
+        font-size: 80%;
+        margin-left: 1%;
+        text-align: justify;
+    }
+    
+    .img-peligro{
+        width: 90%;
+        height: 50%;
+        margin-left: 4%;
+    }
+
+
+    .titu-tamaño{
+        font-size: 90%;
+        text-align: center;
+    }
+
+}
+
+
+
+
+
+
