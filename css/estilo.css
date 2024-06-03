@@ -182,7 +182,35 @@
     margin-right: 15%;
 }
 
+.ubiflex {
+    display: flex;
+    justify-content: center;
+}
 
+.col-video {
+    width: 50%;
+    float: left;             /* para que se ponga a izquierda */
+}
+
+.col2-ubi {
+    width: 50%;
+    float: right;            /* para que se ponga a derecha */
+}
+
+.justar {
+    text-align: center;
+    justify-content: center;
+}
+
+.tamaño{
+    width: 90%;
+    height: 120%;
+}
+
+.espacio-abajo{
+    margin-top: 2%;
+    margin-bottom: 9%;
+}
 
 
 
@@ -244,6 +272,31 @@
         font-size: 90%;
         text-align: center;
     }
+
+
+
+    .ubiflex {
+        display: table;
+        font-size: 20px;
+    }
+   
+    .col-video {
+        width: 100%;
+    }
+   
+    .col2-ubi {
+        width: 100%;
+    }
+
+    .rowflex {
+        display: table;
+        font-size: 20px;
+    }
+
+    .col2 {
+        width: 100%;
+    }
+    
 
 }
 
